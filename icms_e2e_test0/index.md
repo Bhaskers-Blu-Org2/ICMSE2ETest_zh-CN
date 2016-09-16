@@ -1,1 +1,1 @@
-# Index test file for Open Publishing
+# 打开发布索引测试文件
