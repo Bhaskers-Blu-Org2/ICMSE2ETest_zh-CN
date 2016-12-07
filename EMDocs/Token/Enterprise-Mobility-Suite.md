@@ -1,1 +1,1 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink">企业移动套件</Token>
+<Token xmlns:xlink="http://www.w3.org/1999/xlink">Enterprise-Mobilität-Suite</Token>
