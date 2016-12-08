@@ -1,5 +1,5 @@
 ---
-title: "处理器执行 Benefício 不要 FastTrack 中心段落-o 企业移动套件-fases"
+title: "企业移动套件用 FastTrack センター特典のプロセス-フェーズ"
 description: 
 keywords: 
 author: staciebarker
@@ -13,151 +13,153 @@ ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 27b636a664b1e7878273105e2c1e5037eec4f7c6
-ms.sourcegitcommit: 1b0888e015659ad5d1cb408e4af57f1b916d13a3
+ms.openlocfilehash: f601be574812c0ca0b64c731324baba73c022abc
+ms.sourcegitcommit: 45ffbe57b8a2ff1ba6d26efde7f4e2fee8495593
 translationtype: MT
 ---
-# <a name="processo-do-benefcio-do-fasttrack-center-para-o-enterprise-mobility-suite---fases"></a>处理器执行 Benefício 不要 FastTrack 中心段落-o 企业移动套件-fases
-Quando você 美国 o[不要 FastTrack 中心段落企业移动套件 (EMS) 的 Benefício](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para preparar o Azure 活动目录特优，o Microsoft Intune e/ou o Azure 权限管理段落 uso，há várias fases envolvidas 不会。 处理器 de integração seções seguir descrevem cada fase 一样。
+# <a name="enterprise-mobility-suite-fasttrack---"></a>企业移动套件用 FastTrack センター特典のプロセス-フェーズ
 
-像 outras partes 执行处理器 de integração 那样 FastTrack，confira[处理器，请执行 Benefício 不要 FastTrack 中心段落企业移动套件 (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)的段落 ler sobre。
+            [Enterprise Mobility Suite (EMS) 用の FastTrack センター特典](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)を使用して、Azure Active Directory Premium、Microsoft Intune、および Azure Rights Management を準備する場合、そのプロセスには複数のフェーズがあります。 次のセクションでは、オンボーディング プロセスの各フェーズについて説明します。
 
-
-Integração tem quatro fases principais，conforme mostra figura seguir:
+FastTrack オンボーディング プロセスの他の部分については、「[FastTrack 中心福利企业移动套件 (EMS) 的流程 (企业移动套件 (EMS) 用 FastTrack センター特典のプロセス)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)」を参照してください。
 
 
-![根据 quatro fases 执行处理器 de integração do FastTrack](./media/ft-2-onboarding-phases.png)
+次の図に示すように、オンボーディングには 4 つのプライマリ フェーズがあります。
 
 
-## <a name="fase-iniciar"></a>Fase Iniciar
+![FastTrack オンボーディング プロセスの 4 つのフェーズ](./media/ft-2-onboarding-phases.png)
 
-Depois 汉阳 você tiver comprado o número de licenças apropriado，diretrizes 作为 siga 不要作为电子邮件发送 de confirmação de compra para associar licenças ao seu locatário existente ou novo locatário。 Microsoft verificará sua qualificação 段 o Benefício 不要 FastTrack 中心，e tentará entrar em contato com você para oferecer assistência com integração。 Você também pode solicitar assistência 做[Centro FastTrack](http://fasttrack.microsoft.com/) se estiver pronto para implantar esses serviços em sua organização。 Para solicitar assistência、 entre 没有[FastTrack 中心](http://fasttrack.microsoft.com/)(http://fasttrack.microsoft.com)，acesse o painel，团 na guia Ofertas e 团全身"Solicitar Assistência 段 o Microsoft Intune，o Azure 的活动目录高级 ou o Azure 权限管理津贴"。 Uma vez iniciado o suporte de integração，vamos definir uma 议程 de reuniões 在线。
 
-Durante essa fase、 podemos discutir o 处理器 de integração、 verificar os dados e programar uma reunião inicial。
+## <a name=""></a>開始フェーズ
 
-![Fase inicial da integração](./media/ft-3-initiate-phase.png)
+適切な数のライセンスを購入した後、購入確認メールのガイダンスに従って、ライセンスを既存または新規のテナントに関連付けます。Microsoft はお客様が FastTrack センター特典の対象かどうかを確認し、対象の方にオンボーディング アシスタンスを提供する旨をお知らせいたします。これらのサービスを組織で展開する準備ができている場合は、 [FastTrack センター](http://fasttrack.microsoft.com/)からサポートをご依頼いただくこともできます。サポートを依頼するには、[FastTrack センター](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com) [プラン] にサインインし、ダッシュボードを開き、 タブ、 [Microsoft Intune、Azure Premium、または Azure Active Directory 权限管理津贴 のサポートを依頼] の順にクリックしてください。オンボーディング サポートが開始したなら、オンライン会議のスケジュールを立てることになります。
 
-## <a name="fase-avaliar"></a>Fase Avaliar
+このフェーズで、お客様といっしょにオンボーディング プロセスについて話し合い、データを検証し、キックオフ ミーティングの日付を設定します。
 
-Quando começar o 处理器 de integração，Microsoft trabalhará com você para avaliar seu ambiente de origem e os requisitos。 Ferramentas serão executadas para avaliar seu ambiente e Microsoft 瓦 guiá-lo pela avaliação de seus navegadores de Internet，Active Directory 本地、 sistemas operacionais de dispositivos 执行第 rede cliente，DNS，infraestrutura e sistema de identidade para determinar se 圣保罗 necessárias quaisquer alterações para integração。
+![オンボーディングの開始フェーズ](./media/ft-3-initiate-phase.png)
 
-Microsoft também conectará você com diretrizes sobre como gerar uma adoção bem sucedida dos serviços qualificados。
+## <a name=""></a>評価フェーズ
 
-Com 的基础全身 sua configuração atual，forneceremos um 普莱诺市 de correção 汉阳 atualizará o seu ambiente de origem 段 os requisitos mínimos necessários 段 uma integração bem sucedida com o EMS ou seus serviços de nuvem individuais。 Também configuraremos chamadas de ponto de verificação apropriadas para fase de correção。
+オンボーディング プロセスが開始すると、Microsoft はお客様といっしょにソース環境および要件を評価します。ツールを実行してデータを収集した後、Microsoft はオンプレミス 活动的 Directory、インターネット ブラウザー、クライアント デバイスのオペレーティング システム、DNS、ネットワーク、インフラストラクチャ、および ID システムを評価して、オンボーディングを行うために変更の必要があるかどうかを判断します。
 
-![Fase de avaliação da integração](./media/ft-4-assess-phase.png)
+また、対象サービスの導入を成功に導く方法に関するガイダンスも紹介します。
 
-## <a name="fase-corrigir"></a>Fase Corrigir
-Se 来 necessário，você realizará，tarefas 为没有普莱诺市 de correção 没有 ambiente de origem，para 汉阳 você atenda aos requisitos de integração e adoção de cada serviço。
+現在のセットアップ環境に基づいて、ご使用のソース環境を EMS またはその個別のクラウド サービスへと正常にオンボーディングするために必要な最低要件を満たすような修復プランを提供します。また、修復フェーズのための適切なチェックポイント電話会議を設定します。
 
-![Fase de correção da integração](./media/ft-5-remediate-phase.png)
+![オンボーディングの評価フェーズ](./media/ft-4-assess-phase.png)
 
-Antes de iniciar Habilitar，fase verificaremos em conjunto os resultados da atividades de correção para garantir 汉阳 você esteja pronto para continuar。
+## <a name=""></a>修復フェーズ
+必要であれば、ソース環境で修復プランの作業を行い、各サービスのオンボーディングと導入を行うための要件を満たすことができます。
 
-## <a name="fase-habilitar"></a>Fase Habilitar
-作为 atividades de correção estiverem concluídas，o projeto mudará para Quando todas configuração da infraestrutura básica para consumo do serviço e 段 o provisionamento de cada serviço de nuvem 不要 EMS。
+![オンボーディングの修復フェーズ](./media/ft-5-remediate-phase.png)
 
-**Habilitar fase-principais recursos**
+有効化フェーズを開始する前に、修復アクティビティの結果をいっしょに検証して、先に進む準備ができているかを確認します。
 
-Integração de núcleo envolve o provisionamento de serviços e integração de locatário e identidade。 Também inclui etapas para fornecer uma 基 para integração de serviços 在线，como o Azure 活动目录特优，Microsoft Intune e o o Azure 权限管理津贴。
+## <a name=""></a>有効化フェーズ
+すべての修復アクティビティが完了すると、プロジェクトはサービス利用のためのコア インフラストラクチャの構成、および対象となる各 EMS クラウド サービスのプロビジョニングへとシフトします。
 
-![Fase de habilitação da integração-Principais funcionalidades](./media/ft-6-enable-phase-core.png)
+**有効化フェーズ-コア機能**
 
-###<a name="fase-de-habilitao---azure-active-directory-premium"></a>Fase de habilitação 的 Azure 活动目录津贴
+コア オンボーディングには、サービスのプロビジョニングおよびテナントと ID の統合が含まれます。これには、Azure Premium、Microsoft Intune、Azure Active Directory 权限管理津贴 など、オンライン サービスをオンボーディングするための基礎を提供するステップも含まれます。
 
-O ambiente 做 Azure 的活动目录特优 pode ser configurado com sincronização de diretório 的 da ferramenta do Azure 的活动目录连接 e o AD FS (Serviços de Federação do Active Directory)，conforme o necessário。
+![オンボーディングの有効化フェーズ-コア機能](./media/ft-6-enable-phase-core.png)
 
-Para cenários 不要 Azure 活动目录特优汉阳 incluem sincronização de identidades locais com nuvem，nós ajudaremos você adicionando os administradores de TI e os usuários à sua assinatura，configurando pré requisitos de gerenciamento，configurando o Azure 活动目录特优，configurando sincronização de diretório usando ferramenta Azure 活动目录连接 e o AD FS (Serviços de Federação do Active Directory) usando ferramenta Azure 活动目录连接configurando usuários de teste e validando os principais casos de uso para o serviço。
+###<a name="---azure-active-directory-premium"></a>有効化フェーズ-Azure Active Directory 津贴
 
-Configuração 执行 Azure 活动目录特优 inclui habilitação dos seguintes recursos:
+Azure 的 Active Directory 特优環境は、必要に応じて、Azure Active Directory 连接 ツール ディレクトリ同期と Active Directory フェデレーション サービス (AD FS) を使用してセットアップできます。
 
--   SSPR (Autoatendimento de Redefinição de Senha)
+オンプレミス ID をクラウドに同期する Azure Active Directory 特优 シナリオの場合、IT 管理者とユーザーのサブスクリプションへの追加、管理前提条件の構成、Azure Active Directory 特优 の設定、Azure Active Directory 连接 ツールによるディレクトリ同期の設定、Azure 活动目录连接 ツールによる Active Directory フェデレーション サービス (AD FS) の設定、テスト ユーザーの構成、サービスのコア ユース ケースの検証を Microsoft が支援します。
 
--   MFA (Autenticação Multifator) 做 Azure
+Azure 的 Active Directory 特优設定では、次の機能を有効化します。
 
--   Aplicativo SaaS (软件 como Serviço)--将配置 um aplicativo SaaS[市场做 Azure Active Directory](https://azure.microsoft.com/marketplace/active-directory/)没有。
+-   セルフサービスのパスワード リセット (SSPR)
 
--   SSGM (Autoatendimento de Gerenciamento de Grupo)
+-   Azure 多要素認証 (MFA)
 
--   Relatórios administrativos
+-   サービスとしてのソフトウェア (SaaS) アプリケーション- [Azure Active Directory 市场](https://azure.microsoft.com/marketplace/active-directory/)からの 1 つの SaaS アプリケーションのセットアップ
 
-![Fase de habilitação da integração AADP](./media/ft-7-enable-phase-aadp.png)
+-   セルフサービスのグループ管理 (SSGM)
 
-###<a name="fase-habilitar---microsoft-intune"></a>Fase habilitar-Microsoft Intune
+-   管理レポート
 
-段落 o Microsoft Intune，e com 基全身 seu dispositivo móvel e nas necessidades de gerenciamento de aplicativos móveis、 vamos orientá-lo sobre como preparar se para usar o Microsoft Intune para gerenciar dispositivos。 作为 etapas exatas dependem de seu ambiente de origem e podem incluir:
+![オンボーディングの有効化フェーズ-AADP](./media/ft-7-enable-phase-aadp.png)
 
--   Licenciamento dos usuários finais。 Quando necessário，também forneceremos assistência sobre como ativar licenças de 卷 para seu locatário de serviço de nuvem da Microsoft。
+###<a name="-microsoft-intune"></a>有効化フェーズ – Microsoft Intune
 
--   Configurando identidades 汉阳 serão usadas pelo Microsoft Intune，作为 identidades locais de nuvem ou aproveitando 做活动目录。
+Microsoft Intune の場合、モバイル デバイスとモバイル アプリケーション管理のニーズに基づき、Microsoft Intune を使用してデバイスを管理できるようにする手順をご案内します。そのために行う実際のステップは、ご使用のソース環境によって異なりますが、一般に以下の作業が含まれます。
 
--   Adicionando usuários à sua assinatura 执行 Microsoft Intune，definindo funções de administrador de TI e criando grupos de usuários e dispositivos。
+-   エンド ユーザーのライセンシング。必要に応じて、Microsoft クラウド サービス テナントのボリューム ライセンスをアクティブ化する方法のサポートも提供します。
 
--   Com 所基于 em suas necessidades de gerenciamento，configurando autoridade de Gerenciamento de Dispositivo Móvel:
+-   オンプレミスの 活动目录 ID またはクラウド ID のいずれかを活用した、Microsoft Intune で使用される ID の構成。
 
-    -   配置 o Microsoft Intune como sua autoridade MDM quando o Microsoft Intune sua única solução MDM ou se estiver em conjunto com o gerenciamento de dispositivo móvel 执行 Office 365。
+-   Microsoft Intune サブスクリプションへのユーザーの追加、IT 管理者ロールの定義、およびユーザーとデバイスのグループの作成。
 
-    -   Se você tiver uma implementação existente 系统中心配置管理器 e quiser para expandir seus recursos de gerenciamento com o Microsoft Intune，配置 autoridade o 配置管理器 como sua 的 mdm。
+-   管理ニーズに基づいたモバイル デバイス管理機関の構成︰
+
+    -   Microsoft Intune が唯一の MDM ソリューションであるか、Office 365 のモバイル デバイス管理と併用される場合は、Microsoft Intune を MDM 機関として設定します。
+
+    -   系统中心配置管理器 の既存の実装があり、Microsoft Intune を使用した管理機能を拡張しようとする場合は、Configuration 管理器 を MDM 機関として設定します。
 
         > [!NOTE]
-        > Se você estiver procurando apenas aproveitar o Gerenciamento de Aplicativo Móvel nos dispositivos próprios，dispositivos compartilhados ou dispositivos de quiosque de seus usuários finais，configuração de uma autoridade MDM não é necessária。
+        > エンドユーザー所有のデバイス、共有デバイス、またはキオスク型デバイス全体でモバイル アプリケーション管理のみを活用しようとする場合は、MDM 機関を設定する必要はありません。
 
--   Se o Gerenciamento de Dispositivo Móvel estiver 没有 seu escopo，forneceremos orientações com:
+-   モバイル デバイス管理がスコープ内にある場合は、次の点に関してガイダンスを提供します。
 
-    -   Configuração de grupos de testes 与 políticas de gerenciamento serem usados para validar 执行 mdm。
+    -   MDM 管理ポリシーの検証に使用するテスト グループの構成。
 
-    -   Configuração de políticas de gerenciamento 执行 MDM e serviços，como 操作︰
+    -   次のような MDM 管理ポリシーとサービスの構成。
 
-        -   Implantação de aplicativo 段 cada plataforma com suporte por meio de 链接 da web ou 链接 profundos。
+        -   网站 リンクまたはディープ リンクでサポートされているプラットフォームごとのアプリケーション展開。
 
-        -   Políticas de acesso condicional。
+        -   条件付きアクセス ポリシー。
 
-        -   Implantação de 电子邮件，Wi-Fi e perfis VPN。
+        -   メール、Wi Fi、VPN プロファイルの展開。
 
-        -   Configuração 执行 Microsoft Intune Exchange 连接器 quando aplicável。
+        -   適用対象となる場合の Microsoft Intune Exchange 连接器 の設定。
 
-    -   Registro de dispositivos de cada [plataforma com suporte](https://technet.microsoft.com/library/dn600287.aspx)段 o Microsoft Intune ou Gerenciador de Configurações com o o serviço Microsoft Intune。
+    -   
+            [サポートされているプラットフォーム](https://technet.microsoft.com/library/dn600287.aspx)ごとにデバイスを Microsoft Intune サービスで Microsoft Intune または に登録。 配置管理器
 
--   Se o Gerenciamento de Aplicativo Móvel (MAM) estiver 没有 seu escopo ou se você estiver procurando complementar seu Microsoft existente ou solução MDM de terceiros com políticas MAM、 forneceremos orientações com:
+-   モバイル アプリケーション管理 (MAM) がスコープ内にある場合、または MAM ポリシーで既存の Microsoft ソリューションまたはサードパーティ製 MDM ソリューションを補完しようとする場合は、次の点に関するガイダンスを提供します。
 
-    -   Configuração de políticas de MAM para cada plataforma com suporte。
+    -   サポートされているプラットフォームごとの MAM ポリシーの構成。
 
-    -   Configuração de políticas de acesso condicional para aplicativos gerenciados。
+    -   管理対象アプリの条件付きアクセス ポリシーの構成。
 
-    -   Direcionamento dos grupos de usuários apropriado políticas MAM acima 作为 com。
+    -   上記の MAM ポリシーを使用した適切なユーザー グループのターゲット設定。
 
-    -   Utilização de relatórios de uso de aplicativos gerenciados。
+    -   マネージ アプリケーションの使用状況レポートの使用。
 
--   Se o gerenciamento de Pc estiver 没有 seu escopo，forneceremos orientações 段︰
+-   PC 管理がスコープ内にある場合は、次の点に関してガイダンスを提供します。
 
-    -   Quando necessário，instalar o 软件 cliente 进行 Intune。
+    -   必要に応じた Intune クライアント ソフトウェアのインストール。
 
-    -   Uso dos relatórios de 硬件电子软件 disponíveis 没有 Intune。
+    -   Intune で利用できるソフトウェアとハードウェアのレポートの使用。
 
-Microsoft também conectará você com diretrizes sobre como gerar uma adoção bem sucedida dos serviços qualificados。
+また、対象サービスの導入を成功に導く方法に関するガイダンスも紹介します。
 
-![Fase de habilitação da integração Intune](./media/ft-8-enable-phase-intune.png)
+![オンボーディングの有効化フェーズ-Intune](./media/ft-8-enable-phase-intune.png)
 
-###<a name="fase-de-habilitao---azure-right-management-premium"></a>Fase de habilitação 的 Azure 右管理津贴
+###<a name="---azure-right-management-premium"></a>有効化フェーズ-Azure 的适当管理津贴
 
-O ambiente 做 Azure 的适当管理津贴 pode ser configurado com sincronização de diretórios do Azure 的活动目录连接 e o AD FS (Serviços de Federação do Active Directory)，conforme o necessário。
+Azure 的适当管理津贴環境は、必要に応じて、Azure Active Directory 连接 ディレクトリ同期と Active Directory フェデレーション サービス (AD FS) を使用してセットアップできます。
 
-Para cenários 执行 AzRMS 汉阳 incluem sincronização de identidades locais com nuvem、 nós o ajudaremos adicionando administradores de e TI usuários à sua assinatura、 configurando pré requisitos de gerenciamento，configurando o Azure 右管理津贴，configurando sincronização de diretórios usando ferramenta Serviços de Federação Azure 活动目录连接 e os 执行 Azure 活动目录连接 Active Directory usando oconfigurando usuários de teste e validando os principais casos de uso para o serviço。
+オンプレミス ID をクラウドに同期する AzRMS シナリオの場合、IT 管理者とユーザーのサブスクリプションへの追加、管理前提条件の構成、Azure 正确的管理增值 の設定、Azure Active Directory 连接 ツールによるディレクトリ同期の設定、Azure 活动目录连接 による Active Directory フェデレーション サービスの設定、テスト ユーザーの構成、サービスのコア ユース ケースの検証を Microsoft が支援します。
 
-Instalação 执行 AzRMS inclui seguir habilitação dos recursos:
+AzRMS 設定では、次の機能を有効にします。
 
--   Habilitação de Serviço do AzRMS
+-   AzRMS サービスの有効化
 
--   Configuração 执行 IRM para Exchange Online e o o Sharepoint Online
+-   Exchange 联机 と Sharepoint 在线 の IRM 構成
 
--   连接器执行权限管理 com 交换本地 e o o 本地 Sharepoint
+-   オンプレミスの 交换 およびオンプレミスの Sharepoint との 权限管理 コネクタ
 
--   Dispositivos 执行 aplicativo RMS 共享 para dispositivos Windows e não 窗口
+-   Windows デバイスおよび Windows 以外のデバイス用の RMS 共有アプリケーション
 
-![Fase de habilitação da integração Azure RMS](./media/ft-7-enable-phase-aadp.png)
+![オンボーディングの有効化フェーズ-Azure RMS](./media/ft-7-enable-phase-aadp.png)
 
-Leia sobre próxima parte 执行处理器 de integração 不要 FastTrack: [Responsabilidades da Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+FastTrack のオンボーディング プロセスの次のパート「[Microsoft の責任](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)」を参照してください。
 
-### <a name="quer-saber-mais"></a>Quer 剑齿虎 mais 吗？
-Confira[企业移动套件](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)。
+### <a name=""></a>詳細な情報をご希望ですか？
+「[企业移动套件](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)」を参照してください。。
 

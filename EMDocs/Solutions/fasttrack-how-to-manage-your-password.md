@@ -1,6 +1,6 @@
 ---
-title: Como sua gerenciar senha
-description: "Como gerenciar sua própria senha"
+title: "パスワードを管理する方法"
+description: "パスワードを管理する方法"
 keywords: 
 author: craigcaseyMSFT
 manager: jeffgilb
@@ -13,68 +13,60 @@ ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 60670a413f25be5d11e4dda5a85f70afaca67d8f
-ms.sourcegitcommit: 1b0888e015659ad5d1cb408e4af57f1b916d13a3
+ms.openlocfilehash: f466d2741d578ca996a88f92305d7f50eea1256b
+ms.sourcegitcommit: 45ffbe57b8a2ff1ba6d26efde7f4e2fee8495593
 translationtype: MT
 ---
-# <a name="como-gerenciar-sua-prpria-senha"></a>Como gerenciar sua própria senha
+# <a name=""></a>パスワードを管理する方法
 
-对于 Se você um usuário (e não um administrador) 全身 uma organização 汉阳美国 o Office 365 ou contas da Microsoft para acessar recursos de trabalho，leia seções abaixo 段作为剑齿虎 como corrigir problemas comuns com sua senha。
+組織内の （管理者ではなく） ユーザーで、Office 365 または Microsoft アカウントを使用して仕事のリソースにアクセスしている場合、パスワードに関する一般的な問題の修正方法については、以下のセクションを参照してください。
 
-## <a name="como-se-registrar-para-redefinio-de-senha"></a>Como se 注册 para redefinição de senha
-Maneira mais rápida 段 se 注册 para redefinição de senha é 红外线 （ir) até [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)。
+## <a name="-"></a>パスワード リセットを登録する方法
+パスワード リセット登録の最も簡単な方法は、[http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)を利用することです。
 
-1.  Navegue até [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)。
-2.  Digite seu nome de usuário e senha。
-3.  Escolha uma opção na qual se 注册 clicando **configurar agora**。 Nesse caso，farei uma demonstração registrando meu **telefone de autenticação**。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-1-setup.png)
-4.  Selecione o código de seu país na lista suspensa e insira seu número de telefone completo com código de área。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-2-enterNumber.png)![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-3-enterNumber2.png)
-5.  Selecione uma das opções **enviar texto** ou **telefonar**。 Nesse caso，selecionarei **enviar texto**，汉阳 enviará um código de 6 dígitos 段 meu telefone。 Aguarde até 汉阳 o código chegue em seu telefone。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-4-textCode.png)
-6.  Após o código chegar，insira-o na caixa de entrada e 团全身"verificar"。
-7.  Quando vir **Obrigado**，você terminou ！ Agora，você pode usar o 汉阳 registrou para redefinir sua senha qualquer momento acessando [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-5-thanks.png)
-
-> [!IMPORTANT]
-> Se seu administrador permitir se 注册全身 mais de uma opção，será altamente recomendável 汉阳 você também registre uma opção de 备份 caso perca seu telefone ou o acesso ao seu 电子邮件。
-
-## <a name="como-redefinir-sua-senha"></a>Como sua redefinir senha
-作为 etapas abaixo para redefinir senha de sua conta corporativa ou de estudante em qualquer tela de 登录 da conta corporativa ou de estudante Siga。
+1.  
+            [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)にアクセスします。
+2.  ユーザー名とパスワードを入力します。
+3.  
+            **[今すぐセットアップ]**をクリックして登録するオプションを選択します。この例では、**認証用電話**の登録手順を紹介します。![ここに説明文を入力](./media/ft-mngPW-1-setup.png)
+4.  ドロップダウンから国コードを選択し、市外局番を含む電話番号を入力します。![ここに説明文を入力](./media/ft-mngPW-2-enterNumber.png)![ここに説明文を入力](./media/ft-mngPW-3-enterNumber2.png)
+5.  
+            **[テキスト メッセージを送信する]** **[電話で確認コードを受け取る]**オプションを選択します。 またはこの例では、**[テキスト メッセージを送信する]**を選択します。選択すると、6 桁のコードが電話に送信されます。コードが電話に送信されるまで待ちます。![ここに説明文を入力](./media/ft-mngPW-4-textCode.png)
+6.  [確認] コードが届いたら、入力ボックスにコードを入力し、 をクリックします。
+7.  
+            **ありがとうございました**と表示されたら、完了です。パスワード リセットに登録した内容は、いつでも[https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)で参照できます。![ここに説明文を入力](./media/ft-mngPW-5-thanks.png)
 
 > [!IMPORTANT]
-> Esse recurso só ficará disponível para você se o administrador tiver habilitado。 Se ela não estiver ativada，você verá uma mensagem indicando 汉阳 sua conta não está habilitada 段 esse recurso。 Nesse caso，você pode usar o 链接"entrar em contato com seu administrador"para entrar em contato com seu administrador e desbloquear sua conta。
+> 管理者が、複数のオプションの登録を許可している場合は、電話を紛失した場合や、電子メールにアクセスできなくなった場合に備えて、予備のオプションも登録することを強くお勧めします。
+
+## <a name=""></a>パスワードをリセットする方法
+会社アカウントまたは学校アカウントのサインイン画面から、以下の手順で会社アカウントまたは学校アカウントのパスワードをリセットします。
+
+> [!IMPORTANT]
+> この機能は、管理者が有効にしている場合にのみ使用できます。有効ではない場合、お使いのアカウントではこの機能を使用できないというメッセージが表示されます。[管理者に連絡] この場合、 リンクをクリックして、アカウントのロック解除を管理者に依頼することができます。
 >
-Se o administrador tiver habilitado você 段 esse recurso、 primeiro você precisará inscrever se antes de pode usar。 Você pode fazer isso aqui: [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)。
+管理者がこの機能を有効にしている場合、この機能を使用する前に、まずサインアップする必要があります。サインアップは、[http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)で行うことができます。
 
-1.  Em qualquer tela de 登录 da conta corporativa ou de estudante，团全身 um dos 链接"não é possível acessar sua conta 吗？" ou"esqueceu sua senha？" ou navegue diretamente até [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-6-resetPWbegin.png)
-2.  Na página"quem é você？"，insira ID da conta 的 corporativa ou de estudante e 证明汉阳 você não é um robô fornecendo o captcha。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-7-enterID.png)
-3.  团 em **Avançar**。
-4.  Escolha uma opção para redefinir sua senha。 Dependendo de como o administrador tiver configurado o sistema，você poderá ver uma ou mais das seguintes opções:
+1.  会社アカウントまたは学校アカウントのサインイン ページで、 [アカウントにアクセスできない場合] リンク または [パスワードを忘れた場合] リンクのいずれかをクリックするか、[https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)に直接アクセスします。![ここに説明文を入力](./media/ft-mngPW-6-resetPWbegin.png)
+2.  [どなたですか?] ページに、会社アカウントまたは学校アカウントの ID を入力し、CAPTCHA に正解して自分がロボットではないことを証明します。![ここに説明文を入力](./media/ft-mngPW-7-enterID.png)
+3.   **[次へ]**をクリックします。
+4.  パスワードをリセットするオプションを選択します。管理者がシステムを構成した方法に応じて、以下の 1 つまたは複数の選択肢が表示されます。
  - 
-            **Inserir o meu 电子邮件 alternativo** — envia um 通过电子邮件发送 com um código de 6 dígitos 段 seu 电子邮件 alternativo ou 电子邮件 de autenticação (você escolhe)。
+            **[連絡用電子メール アドレスにメールを送信]** -6 桁のコードが記載された電子メールが、(選択した) 連絡用電子メール アドレスまたは認証用電子メール アドレスに送信されます。
   - 
-            **Celular Enviar SMS para meu** – envia um SMS para seu telefone com um código de 6 dígitos seu telefone celular ou 电子 de autenticação (você escolhe)。
+            **[携帯電話に SMS 送信]** -6 桁のコードが記載されたテキストが、(選択した) 携帯電話または認証用電子メール アドレスに送信されます。
   - 
-            **Ligar 段 meu celular** -telefona 段 seu telefone celular ou telefone de autenticação (você escolhe)--pressione tecla # para verificar chamada。
+            **[携帯電話に発信]**的 （選択した） 携帯電話または認証用電話に電話がかかってきます。# キーを押して通話を確認します。
  - 
-            **Ligar 段 meu telefone 商业**-telefona 段 seu telefone 商业 – pressione tecla # para verificar chamada。
+            **[会社電話に発信]** -会社電話に電話がかかってきます。# キーを押して通話を確認します。
  - 
-             **响应方 às minhas perguntas de segurança** -exibe suas perguntas de segurança registradas previamente para você 响应。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-8-answerQuestions.png)
-5.  Vamos usar opção **celular Enviar SMS para meu** como exemplo。 Se estiver usando uma opção baseada em telefone，você precisará verificar o número de telefone antes de nós enviarmos um SMS。 Insira seu número de telefone completo e 团 em **Avançar** para confirmar 汉阳 ele está correto e enviar um SMS。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-9-textNumber.png)
-6.  Quando receber o texto，certifique se de usar o código de verificação 没有分摊 da mensagem、 não o número do qual o código foi enviado。 Pode levar alguns minutos para você receber o então vá tomar SMS um 吧 ！
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-10-verificationCode.png)
-7.  Agora，digite o código 汉阳 acabou de receber em seu telefone na caixa de entrada na página。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-11-enterCode.png)
-8.  O administrador pode exigir uma segunda etapa de verificação。 Nesse caso，etapa 4 com uma opção diferente selecionada repita。
-9.  Na tela"escolher uma 新 senha"，selecione uma 新 senha，confirme sua escolha e 团 em **Concluir**。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-12-clickFinish.png)
-10. Quando vir página êxito，você estará pronto para começar ！ Agora，você pode entrar com sua 新 senha。
-![INSERIR TEXTO DESCRITIVO AQUI](./media/ft-mngPW-13-success.png) Teve um problema para redefinir sua senha？ Leia sobre os [problemas comuns e suas soluções](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions)。
+             **[セキュリティの質問に回答する]** -事前に登録された質問が表示され、それに対して回答します。![ここに説明文を入力](./media/ft-mngPW-8-answerQuestions.png)
+5.  ここでは例として**[携帯電話に SMS 送信]**オプションを使用します。電話主体のオプションを使用している場合、テキストの送信を受ける前に、電話番号を確認する必要があります。市外局番を含めた電話番号を入力し、**[次へ]**をクリックして正しいことを確認し、テキストを送信します。![ここに説明文を入力](./media/ft-mngPW-9-textNumber.png)
+6.  テキストを受信したら、コードの送信元の番号ではなく、メッセージ本文に記載された確認コードを使用します。テキストが送信されるまでに数分かかることがあります。しばらくの間、お待ちください。![ここに説明文を入力](./media/ft-mngPW-10-verificationCode.png)
+7.  ここで、電話で受け取ったコードを、ページの入力ボックスにコードを入力します。![ここに説明文を入力](./media/ft-mngPW-11-enterCode.png)
+8.  管理者が第 2 段階の確認手順を必須にしている場合があります。この場合、管理者が選択したオプションに応じて手順 4 を繰り返してください。
+9.  [新しいパスワードの選択]**[完了]**をクリックします。 画面で新しいパスワードを選択し、選択内容を確定して、![ここに説明文を入力](./media/ft-mngPW-12-clickFinish.png)
+10. 成功ページが表示されたら、準備は完了です。新しいパスワードでサインインできるようになります。![ここに説明文を入力](./media/ft-mngPW-13-success.png)パスワードのリセット中に問題が発生した場合は、 「[自分のパスワードを更新する方法](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions)」を参照してください。
 
-### <a name="quer-saber-mais"></a>Quer 剑齿虎 mais 吗？
-Confira[企业移动套件](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)。
+### <a name=""></a>詳細な情報をご希望ですか？
+「[企业移动套件](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)」を参照してください。。

@@ -1,6 +1,6 @@
 ---
-title: "Proteção de 电子 e documentos da empresa"
-description: "Permitir 汉阳 apenas dispositivos compatíveis acessem 电子邮件 da sua empresa e protejam o conteúdo e anexos de 电子邮件。"
+title: "会社の電子メールおよびドキュメントを保護する"
+description: "会社の電子メールへのアクセスと、電子メールおよび電子メールの添付ファイルのコンテンツの保護を、準拠デバイスのみに許可します。"
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -12,114 +12,117 @@ ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: d2d2b5254267af54b9c3f3243104f9bbb3066976
-ms.sourcegitcommit: 1b0888e015659ad5d1cb408e4af57f1b916d13a3
+ms.openlocfilehash: ca54682e87570d558db95c3d66c064c29d791d24
+ms.sourcegitcommit: 45ffbe57b8a2ff1ba6d26efde7f4e2fee8495593
 translationtype: MT
 ---
-# <a name="proteo-de-emails-e-documentos-corporativos"></a>Proteção de 发电子邮件 e documentos corporativos
-Proteção de 电子邮件 corporativo envolve dois objetivos principais:
+# <a name=""></a>会社の電子メールとドキュメントの保護
+会社の電子メールを保護する主な目的は次の 2 つです。
 
--   Permitir somente dispositivos compatíveis acessar o 电子邮件 da empresa
+-   準拠デバイスのみに会社の電子メールへのアクセスを許可する
 
--   Proteção 执行 conteúdo de 电子 e anexos
+-   電子メールのコンテンツと添付ファイルを保護する
 
-## <a name="permitir-somente-a-dispositivos-compatveis-acessar-o-email-da-empresa"></a>Permitir somente dispositivos compatíveis acessar o 电子邮件 da empresa
-Uma etapa importante para proteger dados corporativos é restringir o acesso dispositivos 汉阳 não usem uma senha 彩云，não estejam desbloqueado ou não estejam criptografados。 O Microsoft Intune oferece 与 condições 汉阳 os usuários devem cumprir para obter acesso aos recursos da empresa capacidade de definir。 Isso é conhecido como acesso condicional。
+## <a name=""></a>準拠デバイスのみに会社の電子メールへのアクセスを許可する
+会社のデータを保護する重要な手順は、強力なパスワードを使用していないデバイス、脱獄されていないデバイス、および暗号化されていないデバイスへのアクセス制限です。Microsoft Intune では、会社のリソースにアクセスするためにユーザーが満たす必要がある条件を設定する機能を提供しています。これは、条件付きアクセスと呼ばれています。
 
-Acesso condicional é determinado por dois tipos de políticas 汉阳 podem ser definidas 没有 Intune:
+条件付きアクセスは、Intune で設定できる次の 2 つの種類のポリシーによって決定されます。
 
 
-            **Políticas de conformidade** determinam a conformidade de um dispositivo. Elas avaliam as configurações e as condições, como:
-
--   
-            **针脚 e senhas**: sua TI pode criar regras para exigir senhas 的 antes de desbloquear um dispositivo，como complexidade da senha，expiração de senha e outras configurações de senha。
+            **コンプライアンス ポリシー:** デバイスのコンプライアンス対応状態を判断します。 このポリシーは、次のような設定と条件を評価します。
 
 -   
-            **Criptografia**: sua TI pode restringir o acesso dispositivos criptografados。
+            **PIN とパスワード**︰ IT 部門は、デバイスのロックを解除する前にパスワードを要求するルール、パスワードの複雑さ、パスワードの有効期限、その他のパスワードの設定を作成できます。
 
 -   
-            **O dispositivo não está desbloqueado ou enraizado**: o Intune pode detectar se um e sua TI pode definir política para bloquear o acesso esses dispositivos-desbloqueado dispositivo registrado está。
-
-
-            **Políticas de acesso condicional** são configuradas para um serviço específico como o Exchange Online ou no SharePoint Online. Para cada serviço, você pode definir a quais grupos de usuários essas políticas devem ser aplicadas. Por exemplo, você pode garantir que todos no departamento financeiro possam acessar apenas email de dispositivos registrados e compatíveis.
-
-## <a name="experincia-de-alto-nvel-do-usurio-final"></a>Experiência de 市 nível do usuário 最终
-Após solução ser implementada，os usuários finais só poderão acessar o 电子邮件 da empresa em dispositivos gerenciados e compatíveis。 没有 ecossistema do aplicativo e ficarão disponíveis apenas 段 os usuários pretendidos，Quando eles tiverem capacidade de acessar o 电子邮件 nos dispositivos，os dados da empresa ficarão protegidos e contidos。 O acesso pode ser revogado incompatível qualquer momento se o dispositivo。
-
-作为 políticas de acesso condicional definidas Especificamente，没有 Intune garantem 汉阳 os dispositivos possam acessar o 电子邮件 somente se forem compatíveis políticas de conformidade 汉阳 você definir 作为 com。 Ações como copiar e colar ou salvar em serviços pessoais de armazenamento na nuvem podem ser restringidas usando políticas de gerenciamento de aplicativos móveis。 O Serviço de gerenciamento de direitos 做 Azure pode ser usado para garantir 汉阳 os dados confidenciais de 邮件，bem como os anexos encaminhados，somente possam ser lidos pelos destinatários pretendidos。 Experiência 执行 usuário 最终 é descrita com mais detalhes em [Experiência 执行 usuário 最终 de acesso condicional](end-user-experience-conditional-access.md)。
-
-
-Assista [este](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) vídeo de quatro minutos para ver como acesso condicional afeta os usuários finais。
-
-## <a name="por-que-a-arquitetura-importante"></a>Por 汉阳 arquitetura é importante
-Os diferentes componentes 实现 EMS e o Office 365 圣保罗 criados e projetados para execução na nuvem。 Isso traz todos os benefícios 汉阳 nuvem oferece: escalabilidade，flexibilidade e facilidade de gerenciamento。
-
-Uma vez 汉阳 diferentes empresas têm requisitos diferentes，o EMS foi projetado para integrar se com infraestrutura 的本地 existente，como o Active Directory，o Exchange Server ou o 系统中心配置管理器。 Isso permite 汉阳 você credenciais já estabelecidas em sua para seus recursos locais e na nuvem 作为使用。
-
-作为 seções seguir descrevem arquitetura conforme projetada 段 ser executada na nuvem e falam brevemente sobre opção 本地。
-
-### <a name="fluxo-de-acesso-de-email"></a>Fluxo de acesso de 电子邮件
-Dependendo 执行 tipo de aplicativo de 电子邮件汉阳 você 美国 para acessar o Exchange 联机，o caminho para estabelecer acesso seguro ao 电子邮件 pode ser ligeiramente diferente。 没有 entanto，os componentes principais︰ 广告 do Azure (Active Directory do Azure)，Office 365/Exchange 联机电子 Microsoft Intune 圣保罗 os mesmos。 Experiência de TI e experiência do usuário 最终 também 圣保罗 semelhantes。 O EMS atualmente dá suporte aplicativos de 电子邮件 nativos e ao aplicativo Microsoft Outlook para iOS e Android。
-
-### <a name="fluxo-de-controle-de-acesso-para-aplicativos-de-email-nativos"></a>Fluxo de controle de acesso para aplicativos de 电子邮件 nativos
-Os clientes seguintes propriedades 作为执行 Exchange ActiveSync (EAS) 汉阳 estiverem tentando acessar 电子邮件没有 Exchange Online 的 serão avaliados 段︰
-
--   O dispositivo é gerenciado pelo Intune 吗？
-
--   O dispositivo está registrado com o Active Directory Azure？
-
--   O dispositivo é compatível？
-
--   ID EA 做 cliente está mapeada 段 um dispositivo registrado？
-
-Para obter um estado compatível，o dispositivo em 汉阳 o cliente EAS está em execução precisa:
-
--   注册器 com o Intune
-
--   Registre se com o [Azure Active Directory](https://msdn.microsoft.com/6a14cb1f-a058-4453-8ede-d9f4a66a7073.aspx)段落
-
--   Estar em conformidade com políticas de dispositivo definidas por seu administrador de 作为 TI。
-
-Na maioria da plataformas，o registro de dispositivo 不要 Active Directory 做 Azure ocorre automaticamente durante o registro。 Os estados de dispositivo 圣保罗 gravados pelo Intune 没有 Active Directory 不要 Azure e então lidos pelo Exchange Online na próxima vez 汉阳 o cliente EAS tenta obter 电子邮件。 Se o dispositivo não estiver registrado，o usuário receberá uma mensagem na caixa de entrada com instruções sobre como 注册 (também conhecido como registro)。 对于 compatível Se o dispositivo não，o usuário receberá um 电子邮件 diferente 汉阳 o redireciona 段 o 门户的 Web 执行 Intune 全身汉阳 ele poderá obter mais informações sobre o problema de conformidade e da como corrigi-lo。
-
-**Azure AD**autentica o usuário e O o dispositivo Microsoft Intune gerencia 与 políticas de acesso condicional，enquanto o **Exchange Online** gerencia o acesso ao conformidade e 电子基 com 没有 estado do dispositivo。
-
-![Gráfico 汉阳 mostra o fluxo de controle de acesso para aplicativos de 电子邮件 nativos em dispositivos com Android 电子 iOS](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
-
-### <a name="fluxo-de-controle-de-acesso-para-aplicativos-do-outlook"></a>Fluxo de controle de acesso para aplicativos 不要 Outlook
-Semelhante ao cliente EA，o aplicativo de 电子邮件做 Outlook 汉阳 estiver tentando acessar o 电子邮件没有 Exchange Online 的 será avaliado para seguintes propriedades:
-
--   O dispositivo é gerenciado pelo Intune 吗？
-
--   O dispositivo está registrado com o Active Directory Azure？
-
--   O dispositivo é compatível？
-
-Conformidade 执行 dispositivo é estabelecida quase da mesma 预计，conforme descrito 没有 fluxo de controle de acesso de cliente do EAS。 没有 entanto，para aplicativos 做 Outlook，o fluxo entre os componentes é levemente diferente。 Quando o aplicativo Outlook tenta obter o 电子邮件、 ele é redirecionado ao Azure 的广告。 O Azure AD emite um 标记为 avaliado com sucesso como estando registrado e em conformidade de segurança se o dispositivo。 O 标记 de segurança então é usado para obter 电子邮件 corporativo 执行 Exchange 联机。 Sincronização de 电子邮件、 na verdade，é orientada por meio do serviço de nuvem do Outlook、 汉阳 obtém um 令牌 de acesso do serviço EAS em nome do usuário 段 concluir autenticação e entrega o 发送电子邮件。
-
-![Gráfico 汉阳 mostra o fluxo de controle de acesso do aplicativo 不要 Outlook](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
-
-## <a name="a-experincia-de-administrao-de-ti"></a>Experiência de administração de TI:
-Não há necessidade de uma configuração de infraestrutura complexa 段 o Azure AD ou o 交换 para 汉阳 isso aconteça。 Seus administradores de TI:
-
--   配置为 políticas de conformidade usadas para avaliar o 状态 de conformidade do dispositivo e implante。
-
--   Configurar política de acesso condicional do 在线交换 e especificar quais grupos de segurança 做广告做 Azure serão afetados por ela ou estão isentos dela。
-
--   Escolha permitir ou bloquear dispositivos 汉阳 não 圣保罗 capazes de se 注册没有 Intune。 可变 de sistemas operacionais com suporte para dispositivos móveis é apresentada mais adiante。
-
-Pode ser necessária uma etapa de configuração opcional。 O relatório usado para gerenciar e monitorar o 状态 e o acesso ao dispositivo requer configuração do 连接器 de serviços 执行 Microsoft Intune。
-
-## <a name="a-experincia-do-usurio-final"></a>最终的 experiência do usuário:
-Quando o usuário tenta acessar 电子邮件没有 dispositivo pela primeira vez ou sincronizar posteriormente，dispositivo é verificado o 状态 de conformidade e de registro。 O 处理器 de 注册 ou corrigir problemas de conformidade é uma experiência guiada。 圣保罗 mostradas ao usuário etapas necessárias 段注册 o dispositivo e torná 作为最终的 lo compatível sem necessidade de chamar o suporte técnico da TI:
+            **暗号化**︰ IT 部門は、暗号化されているデバイスへのアクセスを制限できます。
 
 -   
-            **Se o dispositivo não estiver registrado**，página de 登录 mostrará o acesso negado e solicitará o registro。 没有 registro、 o dispositivo é registrado automaticamente 没有 Active Directory 不要 Azure。 作为 etapas de solução 段解析器 quaisquer problemas de não conformidade O Intune verifica o dispositivo 段片 de conformidade e apresenta。 Depois 汉阳 o dispositivo estiver em conformidade，o Intune 定义 o 状态 de conformidade do dispositivo com o Active Directory 做 Azure。
+            **デバイスが脱獄またはルート化されていない**︰ Intune は、登録済みのデバイスが脱獄されているかどうかを検出できます。さらに、IT 部門はそのようなデバイスからのアクセスをブロックするポリシーを設定できます。
+
+
+            **条件付きアクセス ポリシー:** Exchange Online や SharePoint Online などの特定のサービス向けに構成します。 各サービスに、これらのポリシーが適用されるユーザーのグループを定義することができます。 たとえば、財務部門のすべてのユーザーに、登録済みの準拠デバイスから会社の電子メールへのアクセスのみを許可することができます。
+
+## <a name="-"></a>エンド ユーザー エクスペリエンスの概要
+ソリューションの実装後、エンドユーザーは、管理されていて、かつ準拠しているデバイスでなければ会社の電子メールにアクセスできなくなります。デバイス上でメールにアクセスできるようになると、社内のデータは保護され、アプリのエコシステムに組み込まれ、特定のユーザー以外は使用できなくなります。デバイスが準拠しなくなった場合は、いつでもアクセス権を取り消すことができます。
+
+具体的には、設定したコンプライアンス ポリシーに準拠しているデバイスに限り、Intune に設定された条件付きアクセス ポリシーによってメールへのアクセスを許可されます。コピーと貼り付け、または個人のクラウド ストレージ サービスへの保存などの操作は、モバイル アプリケーション管理ポリシーによって制限できます。Azure 权限管理 サービスでは、機密性の高いメール データや転送された添付ファイルを、特定の受信者だけに表示できます。エンドユーザー エクスペリエンスについては、「[条件付きアクセスのエンドユーザー エクスペリエンス](end-user-experience-conditional-access.md)」で詳しく説明しています。
+
+
+
+            [この](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) 4 分のビデオを視聴して、条件付きアクセスがエンド ユーザーに与える影響を確認できます。
+
+## <a name=""></a>アーキテクチャが重要な理由
+EMS と Office 365 のさまざまなコンポーネントは、クラウド向けに構築され、クラウドで実行する目的で設計されています。これにより、クラウドが提供するすべての利点、つまり、スケーラビリティ、柔軟性、管理の容易さがもたらされます。
+
+業務によって要件が異なるため、EMS は、Active Directory、Exchange Server、System 中心配置管理器 などの既存のオンプレミスのインフラストラクチャと統合できるように設計されています。これにより、オンプレミスとクラウドの両方のリソースに、ネットワークで既に確立されている資格情報を使用することができます。
+
+次のセクションでは、クラウドで実行するために設計されたアーキテクチャについて説明し、オンプレミスのオプションを簡単に紹介します。
+
+### <a name="-"></a>電子メール アクセス フロー
+Exchange 的联机 へのアクセスに使用する電子メール アプリケーションの種類によっては、セキュリティで保護された状態での電子メールへのアクセスを確立する方法が若干異なる場合があります。ただし、主要なコンポーネントである Azure 的活动目录 (AD Azure)、Office 365/Exchange Online、および Microsoft Intune は同じです。IT 管理者の操作とエンド ユーザーの操作も似ています。EMS は現在、ネイティブの電子メール アプリと iOS および Android 用の Microsoft Outlook アプリをサポートしています。
+
+### <a name="-"></a>ネイティブの電子メール アプリケーションのアクセス制御フロー
+交换在线 の電子メールにアクセスする Exchange ActiveSync (EAS) クライアントは、次のプロパティが評価されます。
+
+-   デバイスが Intune で管理されているか。
+
+-   デバイスが Azure Active Directory に登録されているか。
+
+-   デバイスは準拠デバイスか。
+
+-   登録済みのデバイスにクライアント EAS ID がマップされているか。
+
+準拠状態になるには、EAS クライアントが実行されているデバイスが次の条件を満たす必要があります。
+
+-   Intune に登録する。
 
 -   
-            **Se o dispositivo estiver registrado、 mas não estiver em conformidade**，将 com etapas para corrigir os problemas é enviado ao dispositivo um 链接。 Quando o usuário 最终 corrige o problema （por exemplo，definir senha，criptografia），作为 políticas de conformidade atualiza o 状态 de conformidade o Intune 汉阳 gerencia 执行 dispositivo 没有 Azure 广告。
+            [Azure 的 Active Directory](https://msdn.microsoft.com/6a14cb1f-a058-4453-8ede-d9f4a66a7073.aspx)に登録する。
 
-Quando o dispositivo é avaliado como registro e em conformidade，sincronização de 电子邮件 deve acontecer dentro de alguns minutos。
+-   IT 管理者によって設定されたデバイス ポリシーに準拠する。
 
-## <a name="onde-ir-daqui"></a>红外线 （ir) daqui Onde
-Agora 汉阳 você sabe como proteger 电子邮件 e documentos corporativos，pode ler sobre como [proteger anexos de 电子邮件](protect-email-attachments.md)。 Ou，se você estiver pronto，saiba mais sobre [como implementar uma solução para proteger seu 电子邮件 corporativo](implement-solution.md)。
+ほとんどのプラットフォームでは、Azure 活动目录 のデバイスの登録は、登録時に自動的に行われます。Intune によって Azure Active Directory に書き込まれたデバイスの状態は、EAS クライアントが次に電子メールを取得するときに、Exchange 在线 によって読み取られます。デバイスが登録されていない場合、ユーザーの受信トレイに登録方法について記載されたメッセージが届きます。デバイスが準拠していない場合、ユーザーを Intune Web ポータルにリダイレクトする別の電子メールが届きます。ポータルで準拠の問題とその修復方法の詳細を知ることができます。
+
+
+            **Azure AD**がユーザーとデバイスを認証し、Microsoft Intune がコンプライアンス ポリシーと条件付きアクセス ポリシーを管理して、 **Exchange Online** がデバイスの状態に基づいて電子メールへのアクセスを管理します。
+
+![iOS Android デバイスのネイティブ電子メール アプリのアクセス制御フローを示すグラフィック デバイスおよび](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
+
+### <a name="outlook-"></a>Outlook アプリケーションのアクセス制御フロー
+EAS クライアントと同様に、Exchange 在线 の電子メールにアクセスする Outlook 電子メール アプリは、次のプロパティが評価されます。
+
+-   デバイスが Intune で管理されているか。
+
+-   デバイスが Azure Active Directory に登録されているか。
+
+-   デバイスは準拠デバイスか。
+
+デバイスのコンプライアンス対応は、EAS クライアントのアクセス制御フローの説明とほとんど同じ方法で確立されます。ただし、Outlook アプリの場合、コンポーネント間のフローが若干異なります。Outlook アプリが電子メールを取得しようとすると、Azure AD にリダイレクトされます。Azure AD は、そのデバイスが登録済みで準拠していると評価された場合に、セキュリティ トークンを発行します。このセキュリティ トークンは、Exchange 在线 から会社の電子メールを取得するために使用されます。電子メールの同期は、実際には Outlook のクラウド サービスによって仲介されます。このクラウド サービスが、ユーザーの代わりに EAS サービス アクセス トークンを取得して、認証と電子メールの配信を実行します。
+
+![Outlook アプリのアクセス制御フローを示すグラフィック](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
+
+## <a name="it-"></a>IT 管理者の操作︰
+上記を実現するにあたって、Azure 广告 や 交换 では、複雑なインフラストラクチャのセットアップは不要です。IT 管理者は次の手順を実行します。
+
+-   デバイスのコンプライアンス対応状態を評価するときに使用されるコンプライアンス ポリシーを構成し、展開する。
+
+-   Exchange 在线 の条件付きアクセス ポリシーを構成し、どの Azure AD セキュリティ グループが影響を受け、どれがこれらのポリシーから除外されるかを指定する。
+
+-   Intune への登録がサポートされていないデバイスを許可するか禁止するかを選択する。モバイル デバイスでサポートされるオペレーティング システムの一覧については、後ほど紹介します。
+
+オプションのセットアップ段階の実行が必要になる場合があります。デバイスのアクセスと状態の管理および監視に使用されるレポートのために、Microsoft Intune 服务到服务连接器 をセットアップする必要があります。
+
+## <a name="-"></a>エンド ユーザーの操作︰
+ユーザーがデバイスで最初に電子メールにアクセスするとき、またはその後同期を試みるとき、デバイスの登録状態とコンプライアンス対応状態がチェックされます。登録やコンプライアンス対応の問題の修正は、画面の指示に従って処理します。エンド ユーザーは、ヘルプ デスクに連絡する必要なく、デバイスの登録とコンプライアンス対応に必要な手順を確認できます。
+
+-   
+            **デバイスが登録されていない場合**、アクセスが拒否されたことがサインイン ページに表示され、登録が求められます。登録時、デバイスは Azure Active Directory に自動的に登録されます。Intune は、デバイスのコンプライアンス対応を確認し、非対応の問題を解決する修復の手順を提供します。活动目录的 デバイスが対応すると、Intune は、Azure にデバイスのコンプライアンス対応状態を設定します。
+
+-   
+            **デバイスは登録されているがポリシーに準拠していない場合**、問題を修復する手順のリンクがデバイスに送信されます。エンド ユーザーが問題 （パスワードの設定、暗号化など） を修正すると、コンプライアンス ポリシーを管理する Intune で、Azure AD のデバイスのコンプライアンス対応状態が更新されます。
+
+デバイスが登録済みで対応していると評価されると、電子メールの同期が数分内に始まります。
+
+## <a name=""></a>この後の対応
+会社の電子メールとドキュメントを保護する方法はわかりました。次は、[電子メールの添付ファイルを保護する](protect-email-attachments.md)方法を確認します。また、準備ができている場合は、[会社の電子メール保護ソリューションの実装](implement-solution.md)について詳しく見ていきます。
