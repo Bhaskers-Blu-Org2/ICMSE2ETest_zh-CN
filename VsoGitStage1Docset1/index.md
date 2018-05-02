@@ -1,1 +1,0 @@
-# <a name="welcome-to-vsogitstage1docset1"></a>欢迎使用 VsoGitStage1Docset1 ！
